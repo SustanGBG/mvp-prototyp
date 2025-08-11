@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-      - run: npm ci || echo "No package.json yet"
+      - run: echo "No build step yet"
       - run: npm test || echo "No tests yet"
       - run: echo "✅ CI ran"
