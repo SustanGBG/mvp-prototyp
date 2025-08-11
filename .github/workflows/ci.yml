@@ -12,7 +12,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
       - run: echo "No build step yet"
       - run: npm test || echo "No tests yet"
       - run: echo "✅ CI ran"
